@@ -1,4 +1,4 @@
-package class1.oop1.ex;
+package oop1.ex;
 
 public class RectangleOopMain {
 

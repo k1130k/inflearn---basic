@@ -1,4 +1,4 @@
-package class1.oop1;
+package oop1;
 
 public class MusicPlayerMain2 {
 

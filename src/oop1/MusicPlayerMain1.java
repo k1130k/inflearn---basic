@@ -1,6 +1,4 @@
-package class1.oop1;
-
-import java.sql.SQLOutput;
+package oop1;
 
 public class MusicPlayerMain1 {
 
