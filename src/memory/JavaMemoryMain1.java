@@ -7,7 +7,6 @@ public class JavaMemoryMain1 {
         method1(10);
         System.out.println("main end");
 
-
     }
 
     static void method1(int m1) {
@@ -15,10 +14,12 @@ public class JavaMemoryMain1 {
         int cal = m1 * 2;
         method2(cal);
         System.out.println("method1 end");
+
     }
 
     static void method2(int m2) {
         System.out.println("method2 start");
         System.out.println("method2 end");
+
     }
 }

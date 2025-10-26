@@ -8,13 +8,13 @@ public class MusicPlayerMain4 {
         player.on();
         //볼륨 증가
         player.volumeUp();
-        //볼륨 증가
+        // 볼륨 증가
         player.volumeUp();
-        //볼륨 감소
+        // 볼륨 감소
         player.volumeDown();
-        //음악 플레이어 상태
+        // 음악 플레이어 상태
         player.showStatus();
-        //음악 플레이어 끄기
+        // 음악 플레이어 끄기
         player.off();
     }
 }

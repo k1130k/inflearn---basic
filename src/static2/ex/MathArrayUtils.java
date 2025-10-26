@@ -3,15 +3,15 @@ package static2.ex;
 public class MathArrayUtils {
 
     private MathArrayUtils() {
-        //private 인스턴스 생성을 막는다.
+        // private 인스턴스 생성을 막는다.
     }
-   public static int sum(int[] values) {
+    public static int sum(int[] values) {
         int total = 0;
         for (int value : values) {
             total += value;
         }
-       return total;
-   }
+        return total;
+    }
 
     public static double average(int[] values) {
         return (double) sum(values) / values.length;
@@ -30,7 +30,7 @@ public class MathArrayUtils {
     public static int max(int[] values) {
         int maxValue = values[0];
         for (int value : values) {
-            if (value > maxValue) {
+            if (value > maxValue){
                 maxValue = value;
             }
         }

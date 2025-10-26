@@ -1,6 +1,6 @@
 package ref;
 
 public class BigData {
-    Data data; //null
-    int count; //0
+    Data data;
+    int count;
 }

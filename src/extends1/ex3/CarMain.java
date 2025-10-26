@@ -6,6 +6,7 @@ public class CarMain {
         ElectricCar electricCar = new ElectricCar();
         electricCar.move();
         electricCar.charge();
+        electricCar.openDoor();
 
         GasCar gasCar = new GasCar();
         gasCar.move();
@@ -18,5 +19,3 @@ public class CarMain {
         hydrogenCar.openDoor();
     }
 }
-
-

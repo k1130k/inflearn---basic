@@ -10,9 +10,8 @@ public class ValueDataMain {
         System.out.println("최종 숫자=" + valueData.value);
     }
 
-    static void add (ValueData valueData) {
+    static void add(ValueData valueData) {
         valueData.value++;
         System.out.println("숫자 증가 value=" + valueData.value);
     }
 }
-

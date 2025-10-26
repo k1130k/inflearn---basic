@@ -1,5 +1,7 @@
 package extends1.overriding;
 
+import extends1.ex1.GasCar;
+
 public class CarMain {
 
     public static void main(String[] args) {
@@ -10,5 +12,3 @@ public class CarMain {
         gasCar.move();
     }
 }
-
-

@@ -15,7 +15,7 @@ public class DecoDataMain {
 
         System.out.println("3. 인스턴스 호출2");
         DecoData data2 = new DecoData();
-        data2.instanceCall();;
+        data2.instanceCall();
 
         //추가
         //인스턴스를 통한 접근
@@ -24,6 +24,5 @@ public class DecoDataMain {
 
         //클래스를 통한 접근
         DecoData.staticCall();
-
-        }
     }
+}

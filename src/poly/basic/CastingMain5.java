@@ -1,6 +1,7 @@
 package poly.basic;
 
 public class CastingMain5 {
+
     public static void main(String[] args) {
         Parent parent1 = new Parent();
         System.out.println("parent1 호출");

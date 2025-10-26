@@ -13,24 +13,23 @@ public class MusicPlayerMain1 {
         //볼륨 증가
         volume++;
         System.out.println("음악 플레이어 볼륨:" + volume);
-        //볼륨 증가
+        // 볼륨 증가
         volume++;
         System.out.println("음악 플레이어 볼륨:" + volume);
-        //볼륨 감소
+        // 볼륨 감소
         volume--;
-        System.out.println("음악 플레이어 볼륨:" + volume);
+        System.out.println("음악플레이어 볼륨:" + volume);
 
-        //음악 플레이어 상태
+        // 음악 플레이어 상태
         System.out.println("음악 플레이어 상태 확인");
         if (isOn) {
             System.out.println("음악 플레이어 ON, 볼륨:" + volume);
         } else {
-            System.out.println("음악플레이어 OFF");
+            System.out.println("음악 플레이어 OFF");
         }
 
-        //음악 플레이어 끄기
+        // 음악 플레이어 끄기
         isOn = false;
         System.out.println("음악 플레이어를 종료합니다.");
     }
 }
-

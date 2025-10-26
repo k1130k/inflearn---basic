@@ -11,5 +11,7 @@ public class DataCountMain1 {
 
         Data1 data3 = new Data1("C");
         System.out.println("C count=" + data3.count);
+
+
     }
 }

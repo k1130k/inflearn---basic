@@ -11,15 +11,15 @@ public class Method1 {
 
         printStudent(student1);
         printStudent(student2);
-        }
+    }
 
-public static void initStudent (Student student, String name, int age, int grade) {
+    static void initStudent(Student student, String name, int age, int grade) {
         student.name = name;
         student.age = age;
         student.grade = grade;
-}
+    }
 
-    public static void printStudent(Student student) {
+    static void printStudent(Student student) {
         System.out.println("이름:" + student.name + " 나이:" + student.age + " 성적:" + student.grade);
     }
 }

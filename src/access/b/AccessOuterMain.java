@@ -18,6 +18,5 @@ public class AccessOuterMain {
 //        data.privateMethod();
 
         data.innerAccess();
-
     }
 }
