@@ -9,5 +9,8 @@ public class DataCountMain2 {
 
         Data2 data2 = new Data2("B", counter);
         System.out.println("B count=" + counter.count);
+
+        Data2 data3 = new Data2("C", counter);
+        System.out.println("C count=" + counter.count);
     }
 }
